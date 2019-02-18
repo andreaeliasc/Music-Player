@@ -1,0 +1,30 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+            android:com.example.andrea.musicplayer.id="@+com.example.andrea.musicplayer.id/action_shuffle"
+            android:icon="@drawable/rand" android:com.example.andrea.musicplayer.title=""/>
+            <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+            android:com.example.andrea.musicplayer.id="@+com.example.andrea.musicplayer.id/action_shuffle1"
+            android:icon="@drawable/rand"
+            android:orderInCategory="1"
+            android:com.example.andrea.musicplayer.title="Shuffle" app:showAsAction="always"/>
+
+    <item
+            android:com.example.andrea.musicplayer.id="@+com.example.andrea.musicplayer.id/action_end1"
+            android:icon="@drawable/end"
+            android:orderInCategory="2"
+            android:com.example.andrea.musicplayer.title="End" app:showAsAction="always"/>
+
+</menu>ndroid:orderInCategory="1"
+            android:showAsAction="always"
+            android:com.example.andrea.musicplayer.title="Shuffle"/>
+
+    <item
+            android:com.example.andrea.musicplayer.id="@+com.example.andrea.musicplayer.id/action_end"
+            android:icon="@drawable/end"
+            android:orderInCategory="2"
+            android:com.example.andrea.musicplayer.title="End" app:showAsAction="always"/>
+
+</menu>
